@@ -39,6 +39,9 @@ Open index.html in your preferred web browser
 - Safari (latest)
 - Edge (latest)
 
+### Preview of webapp:
+![expense-tracker](preview.png)
+
 
 ## Usage
 1. Open the application in your preferred web browser.

@@ -58,7 +58,7 @@ Contributions are welcome! If you have suggestions for improvements or features,
 For any inquiries or issues, please contact me at:
 
 - Email: jamadarjivan01@gmail.com
-- GitHub: @Jivanjamadar
+- GitHub: @Jivan052
 
 ## Want to see project? 
 https://expense-tracker-red-rho.vercel.app/

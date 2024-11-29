@@ -1,4 +1,5 @@
 # Expense Tracker Web Application 💵
+![expense-tracker](wall.jpeg)
 
 A responsive web-based expense tracking application that helps users manage their monthly expenses with visual representations and budget monitoring system.
 

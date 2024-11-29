@@ -61,7 +61,7 @@ For any inquiries or issues, please contact me at:
 - Email: jamadarjivan01@gmail.com
 - GitHub: @Jivan052
 
-## Want to see project? 
+## Want to see project? You can see this on versel
 https://expense-tracker-red-rho.vercel.app/
 
 

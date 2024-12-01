@@ -2,18 +2,28 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
+    background: linear-gradient(180deg, rgba(129,129,139,1) 0%, rgba(11,11,11,1) 78%);
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #060606;
+}
+
+
+.child-box{
+    /* background-color: #faf7e9; */
+    box-shadow: 0px 1px 5px 2px rgb(0, 0, 0);
+    background-color: #c4c4c2;
+
 }
 
 .limit-container, .form-container {
@@ -21,35 +31,44 @@ h1 {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
+    
 }
 
 .status-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    background-color: white;
+    /* background-color: white; */
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+    box-shadow: 0px 1px 5px 2px rgb(0, 0, 0);
 
+}
+.creater-name{
+    color: aliceblue;
+}
 .status-item {
     text-align: center;
     margin-bottom: 10px;
+    
 }
 
 .status-item h3 {
     margin: 0;
-    color: #666;
+    color: #e9e1e1;
+    
 }
 
 .status-item p {
     margin: 5px 0;
     font-size: 1.2em;
     font-weight: bold;
+    
 }
 
 input {
+    box-shadow: 0px 1px 5px 2px rgb(0, 0, 0);
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -58,25 +77,33 @@ input {
 
 button {
     padding: 10px 20px;
-    background-color: #45a049;
+    background-color: #303030;
+
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 16px;
+    box-shadow: 0px 1px 5px 2px rgb(0, 0, 0);
+
 }
 
 button:hover {
-    background-color: #3d8b41;
+    background-color: #474545;
+    box-shadow: -2px -1px 12px 1px whitesmoke;
+
 }
 
 .expense-list {
-    background-color: white;
+    /* background-color: white; */
+    background-color: #3e3c3c;
     padding: 20px;
     border-radius: 5px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0px 1px 5px 2px rgb(0, 0, 0);
+
 }
 
 ul {
@@ -89,7 +116,8 @@ li {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #eee;
+    /* border-bottom: 1px solid #eee; */
+    background-color: #3e3c3c;
     flex-wrap: wrap;
 }
 
@@ -98,7 +126,9 @@ li:last-child {
 }
 
 .chart-container {
-    background-color: white;
+    /* background-color: white; */
+    background-color: #c4c4c2;
+
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -106,7 +136,7 @@ li:last-child {
 
 .alert {
     padding: 20px;
-    background-color: #f44336;
+    background-color: #716e6e;
     color: white;
     margin-bottom: 15px;
     border-radius: 4px;
@@ -143,13 +173,13 @@ li:last-child {
 }
 
 .delete-btn {
-    background-color: #f44336;
+    background-color: #716e6e;
     padding: 5px 10px;
     margin-left: 10px;
 }
 
 .delete-btn:hover {
-    background-color: #da190b;
+    background-color: #858282;
 }
 
 .Header {
@@ -163,6 +193,7 @@ li:last-child {
     align-items: center;
     justify-content: center;
     padding: 10px;
+    box-shadow: 1px -1px 55px 2px rgb(230, 225, 225);
 }
 
 @media (min-width: 768px) {
